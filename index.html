@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/alta-temperatura.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KELVIN A CELSIUS</title>
+    <script
+      src="https://kit.fontawesome.com/5db7340be0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="head">
+      <h2 class="head-logo">CONVERSIÓN DE GRADOS</h2>
+      <h1 class="nigth-change"><i class="fa-solid fa-moon"></i></h1>
+    </header>
+
+    <main class="tabla">
+      <div class="tabla__conteiner">
+        <h1 class="tabla__text">
+          <span class="kelvin">KELVIN</span> A
+          <span class="celsius">CELSIUS</span>
+          <img src="public/0016e9ca925f2f1e09666976a31959d9.gif" alt="" />
+        </h1>
+
+        <div class="tabla__convertidor">
+          <input
+              type="number"
+              id="kelvin"
+              class="tabla__kelvin"
+              placeholder="  "
+          />
+          <label for="kelvin" class="tabla__label input_kelvin">KELVIN:</label>
+      </div>
+      
+      <div class="tabla__convertidor">
+          <input
+              type="number"
+              id="celsius"
+              class="tabla__celsius"
+              placeholder=" "
+          />
+          <label for="celsius" class="tabla__label input_celsius">CELSIUS:</label>
+      </div>
+
+        <div class="buttom">
+          <button class="tabla__buttom tabla__buttom--cambiar">KELVIN</button>
+        </div>
+      </div>
+
+      <div class="autor">
+        <p class="autor__texto">
+          Creado por <a class="name__autor" href="">Juan Garcia</a>
+        </p>
+      </div>
+    </main>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
